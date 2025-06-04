@@ -1,0 +1,15 @@
+{
+    "api_key": "932becea53220bb9244f779bde17b5c594ba0ab1eb4ceb925ec85ea9a446a6fc",
+    "api_secret": "9a41ddf72bbab3a932a61988e588a9b83cdc2a2672c471db8f9d0c359748e9c0",
+    "testnet": true,
+    "leverage": 10,
+    "entry_timeout_sec": 30,
+    "max_trades_per_day": 5,
+    "signal_priority": false,
+    "tp": {"BTCUSDT": 0.07},
+    "sl": {"BTCUSDT": 0.025},
+    "indicators": {
+        "BTCUSDT": {"ema_short": 12, "ema_long": 26, "rsi": 14},
+        "SOLUSDT": {"ema_short": 12, "ema_long": 26, "rsi": 14}
+    }
+}
